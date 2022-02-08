@@ -15,8 +15,6 @@ body {
     justify-content: space-around;
     background-color: #fff;
     width: 30%;
-    height: 50%;
-    padding: 10px 20px;
     margin: auto;
 }
 
@@ -25,7 +23,51 @@ body {
     flex-direction: row;
 }
 
+.header_row {
+    justify-content: space-between;
+    padding: 20px;
+    color: #7D8A94;
+}
+
+.days_row {
+    border-top: 1px solid #dedede;
+    font-weight: 700;
+    font-size: 13px;
+    color: #7D8A94;
+}
+
+.off {
+    color: #dedede;
+}
+
 .number_row,
 .days_row {
+    padding: 10px 25px;
     justify-content: space-between;
+}
+
+.number_row * {
+    padding: 5px 0;
+    text-align: center;
+
+}
+
+.add {
+    border-radius: 50%;
+    border: orange 2px solid;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    width: 30px;
+}
+
+.info_row {
+
+    align-items: center;
+    font-size: 13px;
+    color: #333;
+    font-weight: 500;
+    border-top: 1px solid #dedede;
+    justify-content: space-between;
+    padding: 20px 25px;
 }
